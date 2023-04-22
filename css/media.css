@@ -1,0 +1,215 @@
+@media (max-width:1150px) {
+    .cont_one, .cont_two, .cont_three, .cont_four {
+        width: 150px !important;
+        font-size: 13px
+    }
+}
+
+@media (max-width:1000px) {
+    .hero-content .content {
+        width: fit-content;
+    }
+    .cont_one, .cont_two, .cont_three, .cont_four {
+        width: 100px !important;
+        font-size: 12px;
+    }
+    .cont_one {
+        right: 2% !important;
+        bottom: 34% !important;
+    }
+    .cont_one::after {
+        left: -30% !important;
+    } 
+    .cont_four {
+        bottom: 35% !important;
+    }
+    /* .cont_one {
+        width: 150px !important;
+        font-size: 13px;
+    }
+    .cont_two {
+        width: 150px !important;
+        font-size: 13px;
+    }
+    .cont_three {
+        width: 150px !important;
+        font-size: 13px;
+    }
+    .cont_four {
+        width: 150px !important;
+        font-size: 13px;
+    } */
+}
+
+@media (max-width:800px) {
+    .hero-content .content {
+        width: fit-content;
+    }
+    .hero-content .content p {
+        font-size: 18px;
+    }
+    .hero-content .r-img {
+        width: 300px;
+    }
+    .hero-content .l-img {
+        width: 220px;
+    }
+    .second_section .card {
+        margin-bottom: 1rem;
+    }
+    .advantage, .adv_one, .adv_two, .adv_three, .adv_four {
+        width: 170px !important;
+        height: 170px !important;
+    }
+
+   .cont_one {
+        width: 80px !important;
+        bottom: 44% !important;
+   }
+   .cont_four {
+        width: 80px !important;
+        bottom: 40% !important;
+   }
+   .cont_two {
+        bottom: 18% !important;
+   }
+   .cont_three {
+        bottom: 15% !important;
+   }
+   .cont_one::after, .cont_two::after, .cont_three::after, .cont_four::after {
+        height: 80% !important;
+   }
+    .section_four .content p {
+        font-size: 15px;
+    }
+    .section_four .skew-card {
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer .col-md-8 .form-control {
+        margin-bottom: 10px;
+    }
+    .owl-carousel .owl-item img{
+        margin: auto;
+    }
+    
+}
+@media (max-width:610px) {
+    .hero-content .content {
+        width: fit-content;
+    }
+    .hero-content .content h2 {
+        font-size: 40px;
+    }
+    .hero-content .content p {
+        font-size: 15px;
+    }
+    .hero-content .r-img {
+        width: 280px;
+    }
+    .hero-content .l-img {
+        width: 150px;
+    }
+    .hero-content .r-img {
+        width: 200px;
+    }
+    .hero-content .show_video {
+        font-size: 20px;
+    }
+    .advantage, .adv_one, .adv_two, .adv_three, .adv_four {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .main-card {
+        margin-top: 38px !important;
+    }
+    .adv_one {
+        margin-top: -144px !important;
+        margin-left: -39px !important;
+    }
+    .adv_four {
+        margin-top: -131px !important;
+        margin-right: -38px !important;
+    }
+    .adv_three {
+        margin-right: 15px !important;
+    }
+    .section_three .advantage h1 {
+        font-size: 23px;
+    }
+    .cont_one {
+        bottom: 54% !important;
+        right: 0 !important;
+    }
+    .cont_two {
+        bottom: 37% !important;
+    }
+    .cont_three {
+        bottom: 37% !important;
+        right: 69% !important;
+    }
+    .cont_four {
+        bottom: 52% !important;
+        left: 0 !important;
+    }
+   
+    .section_four .skew-card {
+        margin: auto;
+    }
+    
+}
+@media (max-width:400px) {
+    .first_section .hero_content .content{
+        width: 200px;
+    }
+    .hero-content .content .show_video {
+        width: 100px;
+        font-size: 12px;
+    }
+    .second_section .left-side .btn {
+        width: 136px;
+        left: 0;
+    }
+    .second_section .left-side .btn p {
+        font-size: 8px;
+    }
+    .second_section .left-side .btn i {
+        font-size: 10px;
+    }
+    .advantage, .adv_one, .adv_two, .adv_three, .adv_four {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .main-card {
+        margin-top: 25px !important;
+    }
+    .adv_one {
+        margin-top: -78px !important;
+        margin-left: -21px !important;
+    }
+    .adv_four {
+        margin-top: -78px !important;
+        margin-left: -2px !important;
+    }
+    .adv_three {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .section_three .advantage h1 {
+        font-size: 15px;
+    }
+    .cont_one, .cont_two, .cont_three, .cont_four {
+        display: none !important;
+   }
+    .section_four .skew-card {
+        width: 215px;
+        height: 250px;
+        margin: auto;
+    }
+    
+    .section_four .skew-card .skew-content .title {
+        font-size: 22px;
+    }
+    
+}
